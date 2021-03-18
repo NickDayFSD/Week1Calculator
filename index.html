@@ -19,61 +19,23 @@
         </div>
     </header>
     <section>
-        <h1>Basic Calculator</h1>
-    </section>
-    <section>
-        <h2>Addition</h2>
+        <h1>Calculate</h1>
         <!--user input -->
-        <input id="add-input-1">
-        <!--add or + symbol-->
-        <div class="calculation">+</div>
+        <input id="math-input-1">
         <!--user input-->
-        <input id="add-input-2">
+        <input id="math-input-2">
         <!--equals button-->
-        <button class="equals-button" id="add-equals-button">=</button>
+        <div>
+            <button class="add-equals-button" id="add-equals-button">+</button>
+            <button class="sub-equals-button" id="sub-equals-button">-</button>
+            <button class="mult-equals-button" id="mult-equals-button">x</button>
+            <button class="div-equals-button" id="div-equals-button">/</button>
+        </div>
         <!--output-->
-        <div id="add-results"></div>
+        <div id="math-results"></div>
+        <script type="module" src="app.js"></script>
     </section>
-    <section>
-        <h2>Subtraction</h2>
-        <!--user input -->
-        <input id="sub-input-1">
-        <!--add or + symbol-->
-        <div class="calculation">-</div>
-        <!--user input-->
-        <input id="sub-input-2">
-        <!--equals button-->
-        <button class="equals-button" id="equals-button">=</button>
-        <!--output-->
-        <div id="sub-results"></div>
-    </section>
-    <section>
-        <h2>Multiplication</h2>
-        <!--user input -->
-        <input id="mult-input-1">
-        <!--add or + symbol-->
-        <div class="calculation">X</div>
-        <!--user input-->
-        <input id="mult-input-2">
-        <!--equals button-->
-        <button class="equals-button" id="equals-button">=</button>
-        <!--output-->
-        <div id="mult-results"></div>
-    </section>
-    <section>
-        <h2>Division</h2>
-        <!--user input -->
-        <input id="div-input-1">
-        <!--add or + symbol-->
-        <div class="calculation">/</div>
-        <!--user input-->
-        <input id="div-input-2">
-        <!--equals button-->
-        <button class="equals-button" id="equals-button">=</button>
-        <!--output-->
-        <div id="div-results"></div>
-    </section>
-    <script src="app.js"></script>
+
     <footer>
         <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
     </footer>
