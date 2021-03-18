@@ -13,22 +13,22 @@ console.log(input2);
 
 // set event listeners to update state and DOM
 //addition function
-addEquals.addEventListener('click',() => {
+addEquals.addEventListener('click', () => {
     result.textContent = Number(input1.value) + Number(input2.value);
-})
+});
 console.log(result);
 
 //subtraction function
-subEquals.addEventListener('click',() => {
+subEquals.addEventListener('click', () => {
     result.textContent = Number(input1.value) - Number(input2.value);
-})
+});
 
 //multiplication function
-multEquals.addEventListener('click',() => {
+multEquals.addEventListener('click', () => {
     result.textContent = Number(input1.value) * Number(input2.value);
-})
+});
 
 //division function
-divEquals.addEventListener('click',() => {
+divEquals.addEventListener('click', () => {
     result.textContent = Number(input1.value) / Number(input2.value);
-})
+});
